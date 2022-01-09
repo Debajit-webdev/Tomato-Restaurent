@@ -2141,7 +2141,7 @@ footer .inner .ru .ru-mrgn2 {
             flex-direction: column;
     margin-top: 3.6rem;
     position: absolute;
-    top: 13%;
+    top: 30%;
   }
   header .header-txt .big-header-img img {
     width: 40%;
@@ -2184,9 +2184,18 @@ footer .inner .ru .ru-mrgn2 {
   }
 }
 
+@media (max-width: 764px) {
+  header nav .nav-center .change-ul {
+    top: 29%;
+  }
+}
+
 @media (max-width: 720px) {
   .inner {
     max-width: 620px;
+  }
+  header nav .nav-center .change-ul {
+    top: 27%;
   }
   .the-restaurant .tr-body .tr-left img {
     width: 100%;
@@ -2227,9 +2236,18 @@ footer .inner .ru .ru-mrgn2 {
   }
 }
 
+@media (max-width: 696px) {
+  header nav .nav-center .change-ul {
+    top: 26%;
+  }
+}
+
 @media (max-width: 660px) {
   .inner {
     max-width: 550px;
+  }
+  header nav .nav-center .change-ul {
+    top: 25%;
   }
   .our-features .inner .of-3div {
     width: 90%;
@@ -2288,6 +2306,9 @@ footer .inner .ru .ru-mrgn2 {
   }
   header nav .nav-center .nav-logo img {
     width: 122%;
+  }
+  header nav .nav-center .change-ul {
+    top: 28%;
   }
   header .header-txt .big-header-img img {
     width: 47%;
@@ -2480,6 +2501,21 @@ footer .inner .ru .ru-mrgn2 {
 @media (max-width: 357px) {
   .today-special .inner .inner-items .ts-carousel .items .ts-txt .cart {
     margin-top: 1.5rem;
+  }
+}
+
+@media (orientation: landscape) {
+  header .header-txt .big-header-img {
+    margin-top: 7rem;
+  }
+  header .header-txt .big-header-img img {
+    width: 33%;
+  }
+  header .header-txt .header-arrow {
+    padding-bottom: 2rem;
+  }
+  .head {
+    min-height: 100vh;
   }
 }
 
