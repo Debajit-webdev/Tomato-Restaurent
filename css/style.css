@@ -75,6 +75,7 @@ header {
 
 header nav {
   width: 100%;
+  height: 70px;
   background-color: rgba(0, 0, 0, 0.3);
   position: fixed;
   top: 0%;
@@ -1858,6 +1859,7 @@ footer .inner .ru .ru-mrgn2 {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    display: block;
   }
   .our-features .inner .of-3div section .of-txt {
     padding: 0.5rem 1.2rem 0rem 1.2rem;
@@ -2141,7 +2143,7 @@ footer .inner .ru .ru-mrgn2 {
             flex-direction: column;
     margin-top: 3.6rem;
     position: absolute;
-    top: 30%;
+    top: 20px;
   }
   header .header-txt .big-header-img img {
     width: 40%;
@@ -2184,18 +2186,9 @@ footer .inner .ru .ru-mrgn2 {
   }
 }
 
-@media (max-width: 764px) {
-  header nav .nav-center .change-ul {
-    top: 29%;
-  }
-}
-
 @media (max-width: 720px) {
   .inner {
     max-width: 620px;
-  }
-  header nav .nav-center .change-ul {
-    top: 27%;
   }
   .the-restaurant .tr-body .tr-left img {
     width: 100%;
@@ -2236,18 +2229,18 @@ footer .inner .ru .ru-mrgn2 {
   }
 }
 
-@media (max-width: 696px) {
-  header nav .nav-center .change-ul {
-    top: 26%;
-  }
-}
-
 @media (max-width: 660px) {
   .inner {
     max-width: 550px;
   }
-  header nav .nav-center .change-ul {
-    top: 25%;
+  header .header-txt .big-header-img {
+    margin-top: 7rem;
+  }
+  header .header-txt .big-header-img img {
+    width: 40%;
+  }
+  header .header-txt .header-arrow {
+    padding-bottom: 2rem;
   }
   .our-features .inner .of-3div {
     width: 90%;
@@ -2278,6 +2271,9 @@ footer .inner .ru .ru-mrgn2 {
   .our-features .inner .of-3div section .of-txt p {
     font-size: 1.5rem;
     line-height: 2.3rem;
+  }
+  .head {
+    min-height: 100vh;
   }
   .special-service .inner .inner-items .owl-dots {
     left: 41%;
@@ -2457,6 +2453,9 @@ footer .inner .ru .ru-mrgn2 {
   .inner {
     max-width: 300px;
   }
+  header nav .nav-center .change-ul {
+    top: 23px;
+  }
   header .header-txt .big-header-img img {
     width: 65%;
   }
@@ -2501,21 +2500,6 @@ footer .inner .ru .ru-mrgn2 {
 @media (max-width: 357px) {
   .today-special .inner .inner-items .ts-carousel .items .ts-txt .cart {
     margin-top: 1.5rem;
-  }
-}
-
-@media (orientation: landscape) {
-  header .header-txt .big-header-img {
-    margin-top: 7rem;
-  }
-  header .header-txt .big-header-img img {
-    width: 25%;
-  }
-  header .header-txt .header-arrow {
-    padding-bottom: 2rem;
-  }
-  .head {
-    min-height: 100vh;
   }
 }
 
