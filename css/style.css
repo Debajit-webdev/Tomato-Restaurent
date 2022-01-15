@@ -1851,14 +1851,12 @@ footer .inner .ru .ru-mrgn2 {
   }
   .our-features .inner .of-3div section .zoom-img {
     width: 35%;
-    height: 100%;
+    height: auto;
   }
   .our-features .inner .of-3div section .zoom-img img {
     -o-object-fit: cover;
        object-fit: cover;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
+    height: 100%;
     display: block;
   }
   .our-features .inner .of-3div section .of-txt {

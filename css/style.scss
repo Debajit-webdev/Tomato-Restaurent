@@ -1594,10 +1594,10 @@ footer{
                     margin-bottom: 4rem;
                     .zoom-img{
                         width: 35%;
-                        height: 100%;
+                        height: auto;
                         img{
                             object-fit: cover;
-                            height: fit-content;
+                            height: 100%;
                             display: block;
                         }                        
                     }
